@@ -44,35 +44,68 @@ h1{
     width: 100%;
     margin-bottom: 20px;
 }
-.login-box  i{
-    display: inline;
-    color: white;
-    padding: 0px 8px;
-    
 
-    
-}
-.login-box input[type="text"], input[type="password"]
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 10px; 
+    color: rgb(255, 0, 0); 
+    min-width: 50px; 
+    text-align: left; 
+} 
+
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+} 
+
+.login-box input[type="text"], input[type="password"] 
 {
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
     outline: none;
     height: 40px;
-    color: #fff;
-    font-size: 16px;
-    padding: 0 5px ;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 0 33px ;
+    
 }
+.login-box ::placeholder{
+    color: rgb(235, 222, 222);
+}
+
 .login-box input[type="submit"]
 {
-    border: none;
+    border-color: white;
     outline: none;
     height: 40px;
     background: #5dabe2;
     color: #fff;
     font-size: 18px;
-    border-radius: 20px;
+    border-radius: 20px;  
 }
+
+.submit-button{
+    padding-top: 25;
+}
+
+.bottom{
+    padding-top: 30; 
+}
+
+.signUp{
+    padding-top: 30;
+    padding-left: 90;
+}
+
 .login-box input[type="submit"]:hover
 {
     cursor: pointer;
